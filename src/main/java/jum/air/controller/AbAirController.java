@@ -5,8 +5,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class AbAirController {
+
     @RequestMapping("/")
     public String index() {
-        return "Hello";
+        return "";
     }
 }
